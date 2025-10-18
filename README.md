@@ -50,19 +50,19 @@ pip install -r requirements.txt
    ```
 3. **Configure `settings.py`**:
    ```python
-  DATABASES = {
-      'default': {
-          'ENGINE': 'django.db.backends.mysql',
-          'NAME': os.environ.get('DB_NAME', 'storedb'),
-          'USER': os.environ.get('DB_USER', 'storeuser'),
-          'PASSWORD': os.environ.get('DB_PASSWORD', 'store_password'),
-          'HOST': os.environ.get('DB_HOST', 'db'),
-          'PORT': os.environ.get('DB_PORT', '3306'),
-          'OPTIONS': {
-              'charset': 'utf8mb4',
-          },
-      }
-  }
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': os.environ.get('DB_NAME', 'storedb'),
+            'USER': os.environ.get('DB_USER', 'storeuser'),
+            'PASSWORD': os.environ.get('DB_PASSWORD', 'store_password'),
+            'HOST': os.environ.get('DB_HOST', 'db'),
+            'PORT': os.environ.get('DB_PORT', '3306'),
+            'OPTIONS': {
+                'charset': 'utf8mb4',
+            },
+        }
+    }
    ```
 4. **Install MySQL client**:
    ```bash
