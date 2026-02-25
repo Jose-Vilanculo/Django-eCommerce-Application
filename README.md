@@ -11,6 +11,7 @@ A Django-based Ecommerce application platform for Vendors and Buyers to trade. S
 - **REST API** for multiple purposes
 - **Responsive frontend** (Bootstrap)
 - **MYSQL** database backend
+- PS! On the live demo, emails dont send and neither do tweets due to free tier hosting.
 
 ## 🚀 Setup Instructions
 
@@ -125,6 +126,11 @@ python manage.py test
 - CREATE a product:
   `POST /api/create/product/`
 - Use tools like Postman for authentication & queries.
+
+
+## Live Demo URL:
+https://josevilanculo.pythonanywhere.com/
+PS! Again on this Live demo emails dont send and neither do tweets due to free tier hosting
 
 ## 📝 Notes
 - Only Vendors can create Stores and Products.
