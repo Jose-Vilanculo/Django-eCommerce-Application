@@ -129,8 +129,8 @@ python manage.py test
 
 
 ## Live Demo URL:
-https://josevilanculo.pythonanywhere.com/
-PS! Again on this Live demo emails dont send and neither do tweets due to free tier hosting
+- https://josevilanculo.pythonanywhere.com/
+- PS! Again on this Live demo emails dont send and neither do tweets due to free tier hosting
 
 ## 📝 Notes
 - Only Vendors can create Stores and Products.
